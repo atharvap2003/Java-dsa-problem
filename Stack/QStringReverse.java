@@ -12,7 +12,7 @@ public class QStringReverse {
             char ch = str.charAt(i);
             s.push(ch);
         }
-        
+         
         while(!s.isEmpty()){
             res.append(s.pop());    
         }
